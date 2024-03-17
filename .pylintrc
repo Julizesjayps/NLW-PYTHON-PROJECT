@@ -5,8 +5,10 @@ disable=
       C0115, # Missing-class-docstring
       C0116, # missing-function-docstring
       W0703, # Catching to general exception Exception
-      C0305
+      C0305, # Final newline missing (missing-final-newline)
       R0903, # too-few-public-methods
+      W0611, # Unused Dict imported from typing (unused-import)
+
 
 
 # Analyse import fallback blocks. This can be used to support both Python 2 and
